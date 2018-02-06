@@ -1,5 +1,6 @@
 # Implementing Either<Left,Right> in Java
 ## [(View current approaches)](CURRENT-APPROACHES.md)
+## [(View Test Case with example usage)](src/test/java/dev/fejnartal/type/either/EitherTest.java)
 ## [(New Approach - Discovery Process)](DiscoveryProcess.odp)
 ## (New Approach - Implemented in this library)
 ### Instantiation
