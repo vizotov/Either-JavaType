@@ -1,3 +1,10 @@
+(If you like this, please consider helping to improve its visibility:
+
+https://twitter.com/fejnartal/status/961133753694289920 
+
+https://stackoverflow.com/a/48711573/8699899
+)
+
 # Implementing Either<Left,Right> in Java
 ## [(View current approaches)](CURRENT-APPROACHES.md)
 ## [(View Test Case with example usage)](src/test/java/dev/fejnartal/type/either/EitherTest.java)
