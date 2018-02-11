@@ -19,7 +19,7 @@ public final class Either<T1,T2> {
 
     public Either(T1 left , L... _) {/*Omitted*/}
     public Either(T2 right, R... _) {/*Omitted*/}
-    ...
+    /*Omitted*/
 }
 ////////////// In use //////////////
 new Either<Integer,String>(2);
