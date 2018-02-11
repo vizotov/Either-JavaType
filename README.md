@@ -17,8 +17,8 @@ public final class Either<T1,T2> {
     public enum L { Left }
     public enum R { Right }
 
-    public Either(T1 left , L... _) {...}
-    public Either(T2 right, R... _) {...}
+    public Either(T1 left , L... _) {/*Omitted*/}
+    public Either(T2 right, R... _) {/*Omitted*/}
     ...
 }
 ////////////// In use //////////////
@@ -29,8 +29,8 @@ new Either<Integer,String>("Text");
 - Matching classes
 ```java
 public final class IntStringMatcher implements Either.Alternative<Integer,String> {
-  @Override public void when(Integer value, L... _) {...}
-  @Override public void when(String  value, R... _) {...}
+  @Override public void when(Integer value, L... _) {/*Omitted*/}
+  @Override public void when(String  value, R... _) {/*Omitted*/}
 }
 ////////////// In use //////////////
 Either<Integer,String> e = new Either<Integer,String>("Text");
@@ -42,8 +42,8 @@ public final class MatcherClosure {
   public MatcherClosure(Either<Integer,String> e) { e.match(new IntStringMatcher()); }
 
   private final class IntStringMatcher implements Either.Alternative<Integer,String> {
-    @Override public void when(Integer value, L... _) {...}
-    @Override public void when(String  value, R... _) {...}
+    @Override public void when(Integer value, L... _) {/*Omitted*/}
+    @Override public void when(String  value, R... _) {/*Omitted*/}
   }
 }
 ////////////// In use //////////////
